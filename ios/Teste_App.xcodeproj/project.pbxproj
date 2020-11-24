@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4E7930EB795BC0BEACCFCE50 /* Pods_Teste_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D145CA9715295C5DE91CCD5 /* Pods_Teste_App.framework */; };
+		80BF95D9256D6D6500E8DE16 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 80BF95D8256D6D6500E8DE16 /* main.jsbundle */; };
 		80D472852569717700DD860B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D472842569717700DD860B /* AppDelegate.swift */; };
 		80D472872569717700DD860B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D472862569717700DD860B /* SceneDelegate.swift */; };
 		80D472892569717700DD860B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D472882569717700DD860B /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		3B58AB82AFAD8DE419930DE0 /* Pods-Teste_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste_App.debug.xcconfig"; path = "Target Support Files/Pods-Teste_App/Pods-Teste_App.debug.xcconfig"; sourceTree = "<group>"; };
 		6D145CA9715295C5DE91CCD5 /* Pods_Teste_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BF95D8256D6D6500E8DE16 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../main.jsbundle; sourceTree = "<group>"; };
 		80D472812569717700DD860B /* Teste_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teste_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D472842569717700DD860B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80D472862569717700DD860B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 		80D472782569717700DD860B = {
 			isa = PBXGroup;
 			children = (
+				80BF95D8256D6D6500E8DE16 /* main.jsbundle */,
 				80D472832569717700DD860B /* Teste_App */,
 				80D472822569717700DD860B /* Products */,
 				C86F92B55670DD15F2C99734 /* Pods */,
@@ -88,7 +91,6 @@
 				3B58AB82AFAD8DE419930DE0 /* Pods-Teste_App.debug.xcconfig */,
 				A7FF13577E467007EBC0EC68 /* Pods-Teste_App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,6 +157,7 @@
 				80D472912569717900DD860B /* LaunchScreen.storyboard in Resources */,
 				80D4728E2569717900DD860B /* Assets.xcassets in Resources */,
 				80D4728C2569717700DD860B /* Main.storyboard in Resources */,
+				80BF95D9256D6D6500E8DE16 /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

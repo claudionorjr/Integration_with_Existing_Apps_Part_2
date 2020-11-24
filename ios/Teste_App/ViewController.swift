@@ -27,10 +27,10 @@ class ViewController: UIViewController {
     @IBAction func buttonToShowReactNativeView(_ sender: UIButton) {
       
         // descomente a linha abaixo caso esteja em produçao.
-        //let jsBundleLocation = Bundle.main.url(forResource: "main", withExtension: "jsbundle")
+        let jsBundleLocation = Bundle.main.url(forResource: "main", withExtension: "jsbundle")
 
         // Aqui é a onde nosso projeto faz ligação com o nosso yarn start que executamos la no começo do tutorial.
-      let jsBundleLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")
+        // let jsBundleLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")
     
         // aqui voce poderá mandar props para o seu React Native
         // let mockData:NSDictionary = [:]
@@ -46,14 +46,14 @@ class ViewController: UIViewController {
         // é aqui que nossa View do react native é criada.
       let rootView = RCTRootView(
           bundleURL: jsBundleLocation!,
-          moduleName: "Test_RN_App", // Caso não tenha mudado o appName em seu AppRegistry, aqui irá o nome do seu projeto RN.
+          moduleName: "NomeAqui", // Caso não tenha mudado o appName em seu AppRegistry, aqui irá o nome do seu projeto RN.
           initialProperties: nil,
           launchOptions: nil
       )
         
         // e aqui nossa View será criada para ser renderizada
       let vc = UIViewController()
-      vc.view = rootView
+        vc.view = rootView
       self.present(vc, animated: true, completion: nil)
     }
 }
