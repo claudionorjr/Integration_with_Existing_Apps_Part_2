@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         // é aqui que nossa View do react native é criada.
       let rootView = RCTRootView(
           bundleURL: jsBundleLocation!,
-          moduleName: "NomeAqui", // Caso não tenha mudado o appName em seu AppRegistry, aqui irá o nome do seu projeto RN.
+          moduleName: "Test_RN_App", // Caso não tenha mudado o appName em seu AppRegistry, aqui irá o nome do seu projeto RN.
           initialProperties: nil,
           launchOptions: nil
       )
